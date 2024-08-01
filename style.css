@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.formulario {	
+	padding: 1em;
+	border: 2px solid green;
+    border-radius: 20px;
+	max-width: fit-content;
+	flex-direction: column;
+	background-color: #fff;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+form {
+    width:25vw;
+}
+
+#alvo {
+    border: 1px solid navy;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+}
+
+header {
+	text-align: center;
+	color: green;
+}
+
+h2 {	
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+button {	
+    font-size: 20px;
+	border: 2px solid green;
+	padding: 5px;
+	background-color: transparent;
+	border-radius: 4px;
+}
